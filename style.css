@@ -13,23 +13,18 @@
     box-sizing: border-box;
 }
 
-header{
-    margin-top: 2.5vw;
-}
-
 a{
     color: var(--cor-texto-link);
     text-decoration: none;
 }
 
 .marginSite{
-    margin: 0 10vw;
+    margin: 2.5vw 10vw;
 }
 
 .flex{
     display: flex;
     align-items: center;
-
 }
 
 /*Header*/
@@ -60,7 +55,7 @@ a{
 }
 
 .containerBuscar input::placeholder{
-    color: var(--cor-titulo);
+    color: var(--cor-buscar);
 }
 
 .containerBuscar button{
@@ -87,10 +82,15 @@ h1{
     font-size: 1.4rem;
 }
 
+.containerApresentacao{
+    align-items: end;
+    justify-content: space-between;
+}
+
 .containerApresentacao h2{                                                         
     color: var(--cor-titulo);
     font-weight: 400;
-    font-size: 6rem;
+    font-size: 9rem;
     max-width: 950px;
 }
 
@@ -100,6 +100,7 @@ h1{
 
 .containerApresentacao p{
     color: var(--cor-titulo);
-
+    max-width: 236px;
 }
+
 /*Apresentação (Titulo)*/
