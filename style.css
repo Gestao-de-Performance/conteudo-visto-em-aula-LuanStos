@@ -7,11 +7,17 @@
     --cor-fundo-inscreva-se: #8E35FF;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Montserrat", sans-serif;
+}      
 
 a{
     color: var(--cor-texto-link);
@@ -103,4 +109,7 @@ h1{
     max-width: 236px;
 }
 
+
 /*Apresentação (Titulo)*/
+
+/*Escolha seu curso*/
